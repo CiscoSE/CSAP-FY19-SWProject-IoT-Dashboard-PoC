@@ -1,0 +1,4 @@
+Skeleton dashboard acquired from the following freely available repo, with all rights to use and edit (see repo license):
+
+https://github.com/codingforentrepreneurs/Django-Chart.js
+
