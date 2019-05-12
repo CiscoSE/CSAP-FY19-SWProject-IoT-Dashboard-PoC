@@ -36,7 +36,7 @@ class ChartData(APIView):
     permission_classes = []
 
     def get(self, request, format=None):
-        conn = sqlite3.connect('/Users/johcuneo/Software Project/iotdash/Django-Chart.js/src/sensor.sqlite3')
+        conn = sqlite3.connect('[PATH-TO-SENSOR-DB]')
         def get_timestamp(conn):
             cursor = conn.execute("SELECT takenat FROM answers")
             return cursor
